@@ -1,0 +1,62 @@
+{
+  "name": "numberconvert",
+  "version": "1.0.0",
+  "description": "An util that simplifies number as digit, string, or other notations",
+  "author": "key",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ansrlm/numberconvert.git"
+  },
+  "keywords": [
+    "number",
+    "convert",
+    "vanilla",
+    "transformer"
+  ],
+  "bugs": {
+    "url": "https://github.com/ansrlm/numberconvert/issues"
+  },
+  "homepage": "https://ansrlm.github.io/numberconvert",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "jsnext:main": "dist/index.es.js",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "build": "rollup -c && tsc -d --emitDeclarationOnly --noEmit false --declarationDir dist",
+    "start": "rollup -c -w",
+    "prepare": "npm run build",
+    "predeploy": "cd example && npm install && npm run build",
+    "deploy": "gh-pages -d example/build"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/runtime": "^7.3.1",
+    "@rollup/plugin-babel": "^5.2.0",
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@rollup/plugin-typescript": "^5.0.2",
+    "@rollup/plugin-url": "^5.0.1",
+    "@types/react": "^16.7.22",
+    "react": "^16.9.0",
+    "gh-pages": "^2.0.1",
+    "rollup": "^2.26.9",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "tslib": "^2.0.1",
+    "typescript": "^3.2.4",
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
+    "eslint": "^7.31.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.5.0"
+  }
+}
