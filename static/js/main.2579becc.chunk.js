@@ -1,0 +1,2 @@
+(this["webpackJsonpnumberconvert-example"]=this["webpackJsonpnumberconvert-example"]||[]).push([[0],{10:function(e,n,t){"use strict";t.r(n);var r=t(0),o=t.n(r),c=t(1),l=t.n(c),u=(t(9),function(){return o.a.createElement("div",null,"hello world")});l.a.render(o.a.createElement(u,null),document.getElementById("root"))},2:function(e,n,t){e.exports=t(10)},9:function(e,n,t){}},[[2,1,2]]]);
+//# sourceMappingURL=main.2579becc.chunk.js.map
