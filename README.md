@@ -2,12 +2,12 @@
 
 An util that simplifies number as digit, string, or other notations
 
-[![NPM](https://img.shields.io/npm/v/numberconvert.svg)](https://www.npmjs.com/package/numberconvert) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@ansrlm/numberconvert.svg)](https://www.npmjs.com/package/@ansrlm/numberconvert) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save numberconvert
+npm install --save @ansrlm/numberconvert
 ```
 
 ## Usage

@@ -1,5 +1,5 @@
 {
-  "name": "numberconvert",
+  "name": "@ansrlm/numberconvert",
   "version": "1.0.0",
   "description": "An util that simplifies number as digit, string, or other notations",
   "author": "key",

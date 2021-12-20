@@ -1,6 +1,6 @@
 {
-  "short_name": "numberconvert",
-  "name": "numberconvert",
+  "short_name": "@ansrlm/numberconvert",
+  "name": "@ansrlm/numberconvert",
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",
