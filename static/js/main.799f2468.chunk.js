@@ -1,2 +1,0 @@
-(this["webpackJsonp@ansrlm/numberconvert-example"]=this["webpackJsonp@ansrlm/numberconvert-example"]||[]).push([[0],{10:function(e,n,t){"use strict";t.r(n);var r=t(0),l=t.n(r),o=t(1),a=t.n(o),c=(t(9),function(){return l.a.createElement("div",null,"hello world")});a.a.render(l.a.createElement(c,null),document.getElementById("root"))},2:function(e,n,t){e.exports=t(10)},9:function(e,n,t){}},[[2,1,2]]]);
-//# sourceMappingURL=main.799f2468.chunk.js.map
