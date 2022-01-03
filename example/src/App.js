@@ -1,9 +1,9 @@
 import React from 'react'
 
-import { useMyHook } from 'numberconvert'
+import { getKoreanNumber } from 'numberconvert'
 
 const App = () => {
-  const example = useMyHook()
+  const example = getKoreanNumber('12455,12,43', 'NORMAL')
   return (
     <div>
       {example}
